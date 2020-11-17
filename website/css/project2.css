@@ -1,0 +1,736 @@
+body{
+margin: 0;
+z-index: 1;
+}
+
+	@media only screen{
+	.col{
+
+		text-transform: uppercase;
+	}
+}
+
+/*@media(min-width: 500px) and (max-width: 999px){*/
+@media(min-width: 500px){
+	.col-md-1{
+		width: 6.33%;
+	}
+
+	.col-md-2{
+		width: 14.66%;
+	}
+
+	.col-md-3{
+		width: 23%;
+	}
+
+	.col-md-4{
+		width: 31.33%;
+	}
+
+	.col-md-5{
+		width: 39.66%;
+	}
+
+	.col-md-6{
+		width: 48%;
+	}
+
+	.col-md-7{
+		width: 56.33%;
+	}
+
+	.col-md-8{
+		width: 64.66%;
+	}
+
+	.col-md-9{
+		width: 73%;
+	}
+
+	.col-md-10{
+		width: 81.33%;
+	}
+
+	.col-md-11{
+		width: 89.66%;
+	}
+
+	.col-md-12{
+		width: 98%;
+	}
+}
+
+@media(min-width: 1000px){
+	.col-lg-1{
+		width: 6.33%;
+	}
+
+	.col-lg-2{
+		width: 14.66%;
+	}
+
+	.col-lg-3{
+		width: 23%;
+	}
+
+	.col-lg-4{
+		width: 31.33%;
+	}
+
+	.col-lg-5{
+		width: 39.66%;
+	}
+
+	.col-lg-6{
+		width: 48%;
+	}
+
+	.col-lg-7{
+		width: 56.33%;
+	}
+
+	.col-lg-8{
+		width: 64.66%;
+	}
+
+	.col-lg-9{
+		width: 73%;
+	}
+
+	.col-lg-10{
+		width: 81.33%;
+	}
+
+	.col-lg-11{
+		width: 89.66%;
+	}
+
+	.col-lg-12{
+		width: 98%;
+	}
+}
+
+@media(max-width: 499px){
+	.col-sm-1{
+		width: 6.33%;
+	}
+
+	.col-sm-2{
+		width: 14.66%;
+	}
+
+	.col-sm-3{
+		width: 23%;
+	}
+
+	.col-sm-4{
+		width: 31.33%;
+	}
+
+	.col-sm-5{
+		width: 39.66%;
+	}
+
+	.col-sm-6{
+		width: 48%;
+	}
+
+	.col-sm-7{
+		width: 56.33%;
+	}
+
+	.col-sm-8{
+		width: 64.66%;
+	}
+
+	.col-sm-9{
+		width: 73%;
+	}
+
+	.col-sm-10{
+		width: 81.33%;
+	}
+
+	.col-sm-11{
+		width: 89.66%;
+	}
+
+	.col1-sm-12{
+		width: 98%;
+	}
+}
+													 
+
+
+
+													  /* start of project 2 css */
+#row1{
+	
+	margin: 0% 0% 0% 0%;
+}
+#row1 img{
+width: 102%;
+height: 100%;
+position: relative;
+z-index: 1;
+margin-top: -13.5%;
+margin-bottom: 0%;
+
+}																					
+
+#topNav{
+	float: left;
+position: fixed;
+z-index: 11;
+
+width: 100%;
+height:90px;
+margin-top: -3px;
+}
+#topNav:nth-child(1n+0){
+float: left;
+color: rgb(200% 30% 25%);
+
+}
+.JsNavBackgroundColor{
+	background-color: white;
+}
+.JsNavPColor{
+color: black !important;
+}
+.JsNavH5Margin{
+	margin-top: 2.5% !important;
+}
+.JsNavPMargin{
+	margin-top: 2.5% !important;
+}
+
+#topPurpleBackground{
+	background-color: rgba(2.8%, 0%, 15%, .85 );
+	position: absolute;
+	height: 102.9%;
+	width: 100%;
+	margin-top: -.2%;
+	z-index: 9;
+}
+#topNav h5{
+	float: left;
+	font-family: "Open Sans";
+	font-size: 20px;
+	margin: 3% 24% 0% 8%; 
+	cursor: pointer;
+}
+#topNav p{
+	float: left;
+	margin: 3% 0% 0% 3%;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: "Open Sans";
+	color: white;
+	cursor: pointer;
+	text-transform: none;
+}
+#row1 h2{
+	margin: -45% 0% 0% 30%;
+	font-size: 21px;
+	font-family: "Arial";
+	z-index: 10;
+	position: absolute;
+	color: white;
+}
+#row1 h1{
+	margin: -38% 0% 0% 29%;
+	font-size: 70px;
+	font-family: "Arial";
+	z-index: 10;
+	position: absolute;
+	color: white;
+}
+#row1 h2
+{
+	margin: -43% 0% 0% 34%;
+	font-size: 21px;
+	color: white;
+	font-family: "Arial";
+	z-index: 10;
+	position: absolute;
+}
+ #topTitleName{
+	margin: -38% 0% 0% 49.5%;
+	font-size: 70px;
+	font-family: "Arial";
+	z-index: 10;
+	position: absolute;
+	color: rgb(200% 30% 25%);
+	cursor:  pointer;
+}
+
+												/* about me */
+
+
+#row2{
+	width: 100%;
+	background-color: white;
+	position: relative;
+	height: 700px;
+	margin: -17.2% 0% 0% 0%;
+	z-index: 10;
+	float: left;
+	/*border: 2px solid red; */
+}
+
+#aboutMeDiv{
+margin-top: 3%;
+position: relative;
+
+}
+#aboutMeDiv h1{
+	font-family: "Montserrat";
+	text-decoration: none;
+	font-size:27px;
+	font-weight: 900;
+	margin: 7% 0% 0% 20%
+}
+#aboutMeDiv h2{
+	font-family: "Montserrat";
+	font-size: 15px;
+	font-weight: 550;
+	margin: 1% 0% 0% 20%;
+}
+#aboutMeDiv p{
+	font-family: "Open Sans";
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 2.0;
+	margin: 3% -43% 0% 0%;
+	text-decoration: none;
+	text-transform: none;
+	color: rgb(50 50 50);
+}
+
+#aboutMeDiv span{
+	color:rgb(200% 30% 25%);
+	font-weight: 700;
+}
+
+#personalImg{
+width: 410px;
+height:480px;
+margin: 25% 10% 0% 20%;
+position: relative;
+z-index:10;
+	float: left;
+
+}
+#phoneText{
+	margin: 2% 1% 0% 0%;
+	float: left;
+	font-size: 12px;
+	font-family: "Montserrat";
+	font-weight: 800;
+}
+#phoneNumber{
+margin: 1.7% 0% 0% 59%;
+	
+}
+#Mail1{
+	margin: -1.9% 1% 0% 85%;
+	
+	font-family: "Montserrat";
+	font-size: 12px;
+	font-weight: 800;
+}
+#mailAddress{
+	margin: -2.0% 0% 0% 90%;
+	font-size: 15px;
+	font-family: 'Montserrat';
+	text-transform: none;
+}
+
+
+												/* end of Personal info section */
+
+
+
+
+
+												/*Start of goals and Work experience section */
+
+
+
+#goalsAndWorkExperiences{
+	margin-top: 36%;
+	background-color: rgb(245 245 245);
+	height: 375px;
+}
+#goals{
+	float: left;
+
+	height: 350px;
+	margin: 0% 0% 0% 8%;
+}
+#goals p{
+font-family:"Open Sans";
+font-size: 16px;
+line-height: 2.0;
+margin: 5% -20% 0% 0%;
+font-weight: 600px;
+text-transform: none;
+}
+
+#goals h1{
+	
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-size: 22px;
+	margin: 15% 0% 0% 0%;
+	display: inline-block;
+}
+#workExperience{
+margin: .5% 0% 0% 10%;
+height: 350px;
+width: 425px;
+float: left;
+}
+#workExperience h1{
+	
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-size: 21px;
+	margin: 15% 0% 0% 20%;
+	display: inline-block;
+}
+#workExperience p{
+font-family:"Open Sans";
+font-size: 16px;
+line-height: 2.0;
+margin: 5% -20% 0% 20%;
+font-weight: 600px;
+text-transform: none;												/* end of goals and work experience */
+}
+
+																	
+
+
+
+
+
+
+																	
+																	/* start of talents */
+
+#skillsTitle h1{
+		font-family: "Montserrat";
+	font-size: 27px;
+	margin-top: 5%;
+	text-transform: none;
+	text-align: center;
+	clear: left;
+}
+#skillsTitle h3{
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight:600 ;
+	margin-top: 1%;
+	text-transform: none ;
+	text-align:center;
+}
+.boxTalent:not(#box1){
+	border-bottom: 2px solid #fd4d4d;
+	height: 335px;
+	width: 275px;
+	box-shadow: .5px .5px .5px .5px  rgb(70% 70% 70%);
+	float: left;
+	margin: 5% 0% 0% 2.3%;
+	margin-bottom: 10%;
+
+}
+#box1{
+	
+	margin: 5% 0% 0% 6%;
+	border-bottom: 2px solid #fd4d4d;
+	height: 335px;
+	width: 275px;
+	box-shadow: 1px 1px 1px 1px  rgb(70% 70% 70%);
+	float: left;
+	margin-bottom: 10%;
+	
+}
+.boxTalent img{
+	height: 75px;
+	width: 75px;
+	border-radius: 50px;
+	margin: 15% 0% 0% 37%;
+}
+.boxTalent h4{
+	font-family: "Open Sans";
+	text-align: center;
+	margin: 10% 0% 0% 0%;
+	text-transform: none;
+}
+.boxTalent p{
+	margin: 7% 10% 0% 10%;
+	font-family: "Open Sans";
+	font-size: 15px;
+	position: relative;
+	text-align: center;
+	text-transform: none;
+	line-height: 2.0;
+
+}
+
+
+															/*End of talents */												
+
+
+
+															
+
+															/* Start of progress */
+
+
+.boxAttributes{
+	position: relative;
+	margin: 0%;
+	z-index: 500;
+	float: left;
+	width: 100px;
+	color: white;
+
+}
+#PBImg{
+	height: 275px;
+	width: 102.075%;
+	margin-top: 12%;
+	z-index: 0;
+
+
+}
+
+#PBImg img{
+	height: 275px;
+	width: 102.075%;
+	margin-top: -20%;
+	z-index: 0
+
+}
+#progress{
+	height: 275px;
+	width: 102.075%;
+	background-color: rgb(2.8%, 0%, 15%, .85 );
+margin-top: 24.1%;
+	z-index: 5;
+	position: absolute;
+
+}
+
+
+
+
+
+
+
+																/* Start of portfolio work */
+
+
+
+
+#workTitle h1{
+	font-family: "Montserrat";
+	font-size: 27px;
+	margin-top: 5%;
+	text-transform: none;
+	text-align: center;
+	clear: left;
+	position: relative;
+}
+#workTitle h3{
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight:600 ;
+	margin-top: .2%;
+	text-transform: none ;
+	text-align:center;
+}
+
+
+#leftWorks{														
+float: left;
+margin: 0% 0% 0% 0%;
+height: 1500px;
+
+}
+#leftWorks img:nth-child(1) {
+	width: 378px;
+	height: 275px;
+	margin: 5.2% 0% 0% 11%;
+	background-color: rgba(2.8%, 0%, 15%, .85 ) ;
+
+}
+#leftWorks img:nth-child(2){
+width: 375px;
+height: 275px;
+margin: 7% 0% 0% 15%;
+}
+#leftWorks img:nth-child(3){
+width: 375px;
+height: 275px;
+margin: 7% 0% 0% 20%;
+}
+#leftWorks img:nth-child(4){
+width: 375px;
+height: 275px;
+margin: 10.5% 0% 0% 20%;
+}
+#birthday:hover{
+	width: 375px;
+	height: 275px;
+	margin: 5% 0% 0% 20%;
+	z-index: 1000;	
+	background-color: rgb(2.8% 0% 15%) ;
+}
+#leftWorks img:nth-child(2):hover{
+width: 375px;
+height: 275px;
+margin: 7% 0% 0% 11%;
+background-color: rgb(2.8%, 0%, 15%, )
+z-index:20;
+}
+#leftWorks img:nth-child(3):hover{
+width: 375px;
+height: 275px;
+margin: 7% 0% 0% 11%;
+background-color: rgba(2.8%, 0%, 15%, .85 )
+}
+#leftWorks img:nth-child(4):hover{
+width: 375px;
+height: 275px;
+margin: 10.5% 0% 0% 11%;
+background-color: rgba(2.8%, 0%, 15%, .85 )
+}
+
+#rightWorks{
+	
+	margin: 10% 0% 0% 33%;
+	
+}
+#rightWorks img{
+float: left;
+}
+#rightWorks img:nth-child(1){
+width: 375px;
+height: 275px;
+margin: 2.8% 2% 0% 5%;
+}
+
+#rightWorks img:nth-child(2){
+width: 375px;
+height: 275px;
+margin: 10% 0% 0% 6%;
+
+}
+
+#rightWorks img:nth-child(3){
+width: 375px;
+height: 275px;
+margin: 4% 0% 0% 5%;	
+}
+
+#rightWorks img:nth-child(4){
+width: 375px;
+height: 275px;
+margin: -31.5% 0% 0% 3%;
+	
+}
+
+
+#rightWorks img:nth-child(5){
+width: 375px;
+height: 275px;
+margin: 5% 0% 0% -43%;
+}
+#rightWorks img:nth-child(6){
+width: 375px;
+height: 275px;
+margin: 5% 0% 0% 5%;
+}
+#rightWorks img:nth-child(7){
+width: 375px;
+height: 275px;
+margin: 5% 0% 0% 10%;
+
+}
+#rightWork img:nth-child(8){
+width: 375px;
+height: 275px;
+margin: 5% 0% 0% 10%;
+}
+#footerSection{
+	margin-top: 0%;
+	position: relative;
+}
+#footer{
+	height: 320px;
+	width: 100%;
+	margin-top: 115%;
+	background-color: rgb(0% 0% 0% );	
+}
+
+#footer h3{
+	float: left;
+	margin: 4% 12% 0% -20%;
+	color: rgb(200 30 25);
+	font-family: "Montserrat";
+	font-size: 23px;
+}
+#footer img{
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: 4% 12% 0% 7%;
+}
+#portfolioFooter{
+	clear: left;
+}
+#footer p{
+	
+	float: left;	
+	
+	font-family: "Montserrat";
+	font-size: 15px;
+	color: white;
+}
+#footer p:nth-child(5){
+	margin: 3% 0% 0% 11.7%;
+	text-transform: none;
+}
+#footer p:nth-child(6){
+margin: 3% 0% 0% 17.0%;
+text-transform: none;
+	}
+	#footer p:nth-child(7){
+margin: 3% 0% 0% 10.5%;
+text-transform: none;
+	}
+	#footer p:nth-child(8){
+margin: 3% 0% 0% 10.9%;
+text-transform: none;
+	}
+	#footer hr{
+		border-top: .2px solid;
+margin:15% 0% 0% 0%;
+color: rgb(100% 100% 150%);		
+	}
+	#footer span{
+		font-family: "Open Sans";
+		margin: 3.5% 0% 0% 37%;
+		color: white;
+		position: absolute;
+	}
+
+
+
+
+
+

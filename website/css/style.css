@@ -1,0 +1,106 @@
+body
+{
+	margin: 0px;
+	background-color: white;
+}
+nav
+{
+	height: 80px;
+	width: 100vw;
+	background-color: black;
+	margin-left: 0px;	
+}
+
+.flex_center
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+nav div
+{
+	margin-left: 12vw;
+	height: 100%;
+	float: left;
+}
+
+nav div p
+{
+	font-size: 21px;
+	margin: 0;
+	color: white;
+}
+
+#about_me_section
+{
+	float: left;
+	width: 25vw;
+	height: 68vh;
+	background-color: white;
+	margin: 7vh 0vw 0vh 20vw;
+	border-radius: 20px;
+	border-top: 2px solid rgb(20 0 250);
+	border-bottom: 2px solid rgb(20 0 250);
+}
+#about_me_section h1, #about_me_section h2, #about_me_section img, #about_me_section p
+{
+	text-align: center;
+}
+#about_me_section h1
+{
+	font-family: "Arial";
+	margin: 7vh 0vw 0vh 0%;
+	color: rgb(0 80 255);
+	font-size: 38px;
+}
+#about_me_section h2
+{
+	font-family: "Crimson Text";
+	color: black;
+	margin: 2vh 0vw 0vh 0%;
+	font-size: 20px;
+}
+#about_me_section img
+{
+	margin: 5% 0% 0% 41%;
+	width: 70px;
+	height: 70px;
+}
+#about_me_section p
+{
+
+	margin: 5% 15% 0vh 15%;
+	word-spacing: 5px;
+	font-size: 22px;
+	color: rgb(30 30 30);
+	font-family: "Open Sans";
+}
+
+#background_img_wrapper
+{
+	box-sizing: border-box;
+	width: 474px;
+	height: 710px;
+}
+#background_img_wrapper div img
+{
+	border-radius: 25px;
+	/*js line 9 */
+}
+#background_img_wrapper div
+{
+	height: 100%; 
+	width: 100%;
+	background-color: rgba(220, 220, 220, .1);
+	position: absolute;
+}
+#skills_img_wrapper
+{
+	margin: 300px 0px 0px 300px;
+}
+#skills_img_wrapper img
+{
+	height: 400px;
+	width: 600px;
+	border-radius: 30px;
+}
