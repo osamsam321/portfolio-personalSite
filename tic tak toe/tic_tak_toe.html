@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> tictaktoe</title>
+	<link rel="stylesheet" href = "style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Libre+Baskerville:wght@400;700&family=Lora:wght@400;500;700&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300;500;700&family=Oxygen:wght@400;700&family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:wght@400;700&family=Poppins:wght@300;400;700&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="winnerModal"> <h1 id="winnerAnnouncement">  </h1> <button id="playAgainBtn"> Play Again</button></div>
+	<div id="startGameDialog"> 
+			<h1> Tic Tak Toe Game</h1>
+			<button> Play</button>
+
+	</div>
+	<div id="scoreBoardWrap"> 
+		<div id="scoreTitle"> <h1> Score</h1></div>
+			<table>
+			  <tr>
+			    <th>Player</th>
+			    <th>Symbol</th>
+			    <th>Wins</th>
+			    <th>Turn</th>
+			  </tr>
+			  <tr>
+			    <td id="userNameSC"> </td>
+			    <td id="userSymbolSC"> </td>
+			    <td id="userWinsSC"> </td>
+			    <td id="userTurnSC">  </td>
+			 </tr>
+			   <tr>
+			    <td id="aiNameSC"> </td>
+			    <td id="aiSymbolSC"> </td>
+			    <td id="aiWinsSC"> </td>
+			    <td id="aiTurnSC"> </td>
+			 </tr>
+		</table>
+
+	</div>
+	
+	<div id="mainBoardWrap">
+		<div class="rowCr">
+				 <div id="slot0" class="boxCr"> <h1 id= "slot0" class="symbolText">  </h1> </div>
+				 <div id="slot1" class="boxCr"> <h1 id="slot1" class="symbolText"> </h1></div>
+				 <div id="slot2" class="boxCr"> <h1 id="slot2"class="symbolText"> </h1></div>
+			
+
+		</div>
+		
+		<div class="rowCr"> 
+				<div id="slot3" class="boxCr"> <h1 id="slot3" class="symbolText"> </h1> </div>
+				 <div id="slot4" class="boxCr"> <h1 id="slot4"class="symbolText"> </h1></div>
+				 <div id="slot5" class="boxCr"> <h1 id="slot5" class="symbolText"> </h1></div>
+
+		</div>
+		<div class="rowCr"> 
+				<div id="slot6" class="boxCr"> <h1 id="slot6" class="symbolText"> </h1> </div>
+				 <div id="slot7" class="boxCr"> <h1 id="slot7" class="symbolText"></h1></div>
+				 <div id="slot8" class="boxCr"> <h1  id="slot8" class="symbolText"> </h1></div>
+
+		</div> 
+	</div>
+
+	<script src="script.js"> </script>
+
+</body>
+</html>
